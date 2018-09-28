@@ -1,4 +1,5 @@
 #calculator.py module ASE 28/09/2018
+#D&F were here
 
 def sum(m,n):
     result = m
@@ -42,6 +43,8 @@ def divide(m,n):
 def main():
     print(sum(-3,-3))
     print(divide(0,-3))
+    print(divide(10, 0))
+    print(divide(0, 0))
 
 
 if __name__ == "__main__":
